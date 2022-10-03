@@ -8,6 +8,7 @@
   height: 31em;
 }
 .sect {
+  background-color: transparent;
   position: relative;
   width: 50%;
 }
