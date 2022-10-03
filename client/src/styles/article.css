@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.article {
+  position: relative;
+  height: 31em;
+}
+.sect {
+  position: relative;
+  width: 50%;
+}
+.image {
+  position: absolute;
+  width: 80%;
+  padding: 2em 2em 0 6em;
+  z-index: 1;
+}
+.image img {
+  width: 100%;
+  height: 30em;
+}
+.ombre {
+  position: absolute;
+  width: 60%;
+  height: 30em;
+  top: 3.5em;
+  left: 8em;
+  background-color: #e6d7e273;
+}
+.deux {
+  top: 2em;
+  height: 30em;
+  width: 60%;
+  left: 121.5%;
+  background-color: #e6d7e273;
+  display: flex;
+  flex-direction: column;
+  gap: 3em;
+  padding-left: 2em;
+}
+.two {
+  left: 125%;
+}
+.deux h1 {
+  margin-top: 3em;
+  text-align: left;
+}
+.deux p {
+  text-align: left;
+  line-height: 1.5em;
+}
