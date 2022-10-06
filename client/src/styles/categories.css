@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.component {
+  height: 31em;
+}
+.container {
+  height: 25em;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+.beaute {
+  grid-area: 0 2 0 1;
+}
+.bebe {
+  background-image: url(../images/A.jpg);
+  grid-area: 2 3 0 2;
+}
+.nutrition {
+  grid-area: 0 2 1 2;
+  background-image: url(../images/pexels-trang-doan-1128678.jpg);
+}
